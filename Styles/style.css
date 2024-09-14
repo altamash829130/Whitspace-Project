@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
 }
 
 .header {
@@ -64,7 +64,9 @@ body {
   line-height: 23px;
 }
 
-.free-btn:hover {
+.free-btn:hover,
+.hero-btn:hover,
+.get-started-btn:hover {
   background-color: #478ce0;
   cursor: pointer;
 }
@@ -72,4 +74,83 @@ body {
 .login-btn:hover {
   cursor: pointer;
   background-color: #e6cd83;
+}
+
+/* ************ */
+/* HERO SECTION */
+/* ************ */
+.hero-section {
+  background-color: #043873;
+  padding: 140px 220px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.text {
+  font-size: 1.125rem;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+.hero-btn {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #4f9cf9;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  color: inherit;
+}
+
+/* ********* */
+/* Section 1 */
+/* ********* */
+.management,
+.work-together,
+.extension {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 140px 200px;
+}
+
+.subheading {
+  font-size: 4.5rem;
+  color: #212529;
+  line-height: 88px;
+  margin-bottom: 2.5rem;
+}
+
+.management .text {
+  color: #212529;
+}
+
+.get-started-btn {
+  font-weight: 500;
+  line-height: 23px;
+  color: #fff;
+  background-color: #4f9cf9;
+  border: none;
+  font-weight: 500;
+  padding: 20px 40px;
+  font-size: 1.125rem;
+  border-radius: 8px;
+}
+
+.extension {
+  background-color: #043873;
+}
+
+.extension h2,
+.extension p {
+  color: #fff;
 }
